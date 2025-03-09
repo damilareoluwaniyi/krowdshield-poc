@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Bolt Expo Starter",
+    "slug": "bolt-expo-starter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://images.unsplash.com/photo-1557683311-eac922347aa1?w=200&q=80",
+    "scheme": "bolt-expo",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "https://images.unsplash.com/photo-1557683311-eac922347aa1?w=1000&q=80",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "https://images.unsplash.com/photo-1557683311-eac922347aa1?w=64&q=80"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    }
+  }
+}
